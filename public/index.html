@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crib2 - Multiplayer Cribbage Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="cribbage-board"></canvas>
+        <div id="player-hand"></div>
+        <div id="opponent-hand"></div>
+        <div id="deck"></div>
+        <div id="chat-container">
+            <div id="chat-messages"></div>
+            <input type="text" id="chat-input" placeholder="Type a message...">
+            <button id="chat-send">Send</button>
+        </div>
+        <div id="notifications"></div>
+        <div id="customization-options">
+            <label for="theme-select">Theme:</label>
+            <select id="theme-select">
+                <option value="classic">Classic</option>
+                <option value="modern">Modern</option>
+                <option value="seasonal">Seasonal</option>
+            </select>
+            <label for="avatar-select">Avatar:</label>
+            <select id="avatar-select">
+                <option value="avatar1">Avatar 1</option>
+                <option value="avatar2">Avatar 2</option>
+                <option value="avatar3">Avatar 3</option>
+            </select>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

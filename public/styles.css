@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#cribbage-board {
+    width: 80%;
+    height: 300px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+}
+
+#player-hand, #opponent-hand, #deck {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 60px;
+    height: 90px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#chat-messages {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    width: 70%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#chat-send {
+    padding: 5px 10px;
+}
+
+#notifications {
+    width: 80%;
+    background-color: #ffcc00;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#customization-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#customization-options label {
+    margin-bottom: 5px;
+}
+
+#customization-options select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
